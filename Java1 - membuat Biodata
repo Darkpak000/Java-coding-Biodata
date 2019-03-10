@@ -1,0 +1,25 @@
+# Java-coding-Biodata
+import java.util.*;
+import org.apache.http.util.*;
+class lal {
+public static void main (String[] Args) {
+Scanner input = new Scanner (System.in);
+String Nama;
+String NIM;
+String Jurusan;
+String Fakultas;
+System.out.print("Nama        : ");
+Nama = input.nextLine();
+System.out.print("NIM         : ");
+NIM = input.nextLine();
+System.out.print("Jurusan     : ");
+Jurusan = input.nextLine();
+System.out.print("Fakultas    : ");
+Fakultas = input.nextLine();
+System.out.println("==================");
+System.out.println("Nama        : "+Nama);
+System.out.println("NIM         : "+NIM);
+System.out.println("Jurusan     : "+Jurusan);
+System.out.println("Fakultas    : "+ Fakultas); 
+}
+}
